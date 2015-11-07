@@ -1,0 +1,54 @@
+#latest-shape{
+    float: right;
+    position: relative;
+    right: 5%;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+}
+
+#new-shape-form {
+    display: none;
+    float:right;
+    position: relative;
+    right: 5%;
+}
+body {
+    font-family: "helvetica neue", "helvetica", "arial", sans-serif;
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#brand {
+    display: inherit;
+    text-align: left;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 20px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#drawing-section {
+    left: 1% !important;
+    height: 100% !important;
+}
+
+#canvas {
+    width: auto;
+    height: auto;
+}
+
+.box {
+    padding: 30px 15px;
+    background: rgba(248, 248, 248, 0.6);
+    border: 1px solid #E7E7E7;
+}
+
+li a:hover {
+    cursor: pointer;
+}
